@@ -1,0 +1,51 @@
+.modal-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #833471;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.buyed-item-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.buyed-item-price {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #833471;
+  width: 75px;
+}
+.buyed-item-amount {
+  margin-left: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border: 1px solid #833471;
+  padding: 2px;
+  text-align: center;
+}
+.buyed-item-actions button {
+  margin-left: 5px;
+  width: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #6f1e51;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.buyed-item-actions button:hover {
+  background-color: #ed4c67;
+}
+@media (max-width: 650px) {
+  .buyed-item-amount {
+    margin-left: 1px;
+  }
+}

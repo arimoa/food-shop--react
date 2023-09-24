@@ -1,0 +1,67 @@
+.food-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 10px;
+  border-bottom: 1px solid #833471;
+}
+.item-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+.item-name {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.item-description {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.item-price {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #833471;
+}
+.item-amount span {
+  font-weight: 600;
+}
+.item-amount input {
+  margin-left: 5px;
+  padding: 2px;
+  text-align: center;
+  outline: none;
+}
+
+.item-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+.btn-item-add {
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #6f1e51;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.btn-item-add:hover {
+  background-color: #ed4c67;
+}
+@media (max-width: 650px) {
+  .item-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

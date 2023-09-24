@@ -1,0 +1,15 @@
+.meals-section {
+  width: 70%;
+  margin: 0 auto;
+}
+.meals-section > p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+@media (max-width: 650px) {
+  .meals-section {
+    width: 85%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,47 @@
+.modal-price-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.modal-price-section p {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.modal-price-section p:last-child {
+  color: #833471;
+}
+.modal-actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.modal-actions button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.modal-actions button:first-child {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #6f1e51;
+  color: #6f1e51;
+}
+.modal-actions button:first-child:hover {
+  border: 1px solid #ed4c67;
+  color: #ed4c67;
+}
+.modal-actions button:last-child {
+  background-color: #6f1e51;
+  color: white;
+}
+
+.modal-actions button:last-child:hover {
+  background-color: #ed4c67;
+}

@@ -1,0 +1,28 @@
+.cart-button {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #6f1e51;
+  border-radius: 30px;
+  width: 180px;
+  height: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 50px;
+  transition: 0.2s;
+}
+.cart-button {
+  font-size: 1.1rem;
+}
+.cart-button:hover {
+  background-color: #ed4c67;
+}
+.cart-button :last-child {
+  background-color: #b53471;
+  border-radius: 50%;
+  width: 35px;
+  aspect-ratio: 1/1;
+  line-height: 35px;
+}
