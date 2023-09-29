@@ -1,4 +1,4 @@
-# Food-Shop_React.Js
+# food-Shop_React.Js
 How to use:
 1.Download it
 2.Extract it
@@ -10,7 +10,12 @@ This program allows the user to add items from the inventory of available foods 
 ____________________
 Pictures:
 Main page:
-![main](https://github.com/arimoa/Food-Shop_React.Js/assets/134084996/7a3ecfc2-9fb3-4a2a-96be-2c07987cef76)
+![main](https://github.com/arimoa/food-shop_React.Js/assets/134084996/8f3080e7-ca23-45b5-94a0-e827aa7c599a)
 
-Cart section:
-![cart](https://github.com/arimoa/Food-Shop_React.Js/assets/134084996/d4fa8f0c-dc0b-4273-bd82-1bc03831264c)
+Cart modal when it is not empty:
+![cartFilled](https://github.com/arimoa/food-shop_React.Js/assets/134084996/426c93f2-685d-4937-9dcf-98e218a2615b)
+
+Cart modal when it is empty:
+![cartNotFilled](https://github.com/arimoa/food-shop_React.Js/assets/134084996/faf1e018-d7f0-4bce-babf-7af9cb9f3f80)
+
+
