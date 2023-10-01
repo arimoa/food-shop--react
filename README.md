@@ -1,5 +1,9 @@
 # food-Shop_React.Js
 How to use:
+1. First item
+2. Second item
+3. Third item
+
 1. Download it
 2. Extract it
 3. run npm install in the extracted folder
