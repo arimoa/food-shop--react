@@ -6,7 +6,7 @@
 4. Run **npm start** to start the development server.
 
 ## About this app
-This program allows the user to add items from the inventory of available foods to his shopping cart. The quantity of each item on the list can be determined. After this stage, the user will be shown a new window that displays the selected items when he clicks on his shopping cart. The user can delete, reduce, or increase the quantity of each item.
+This program allows the user to add items from the inventory of available foods to his shopping cart. The quantity of each item on the list can be determined. After this stage, the user will be shown a cart modal that displays the selected items when he clicks on his shopping cart. The user can delete, reduce, or increase the quantity of each item in the cart modal.
 
 ## Pictures
 ### Main page
